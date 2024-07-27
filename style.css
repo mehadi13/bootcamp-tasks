@@ -1,0 +1,54 @@
+.bg-lightgray {
+   background-color: lightgray; 
+}
+
+.bg-white {
+    background-color: white;
+}
+
+
+.cong-tag {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.font-small {
+    font-size: small;
+    font-weight: 500;
+}
+
+body {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-1 {
+    padding-top: 10em;
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-bottom: 3em;
+    height: fit-content;
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.button-style {
+    background-color: black;
+    color: #fff;
+    padding: 1em 5em;
+} 
