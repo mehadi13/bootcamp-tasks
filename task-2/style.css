@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    width: 25%;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.product-title {
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #fff;
+}
+
+img {
+    height: 90px;
+}
+
+.bg-watch {
+    background-color: rgb(13,203,240);
+}
+
+.bg-shoe {
+    background-color: rgb(14,111,253);
+}
+
+.bg-bag {
+    background-color: rgb(25,135,84);
+}
